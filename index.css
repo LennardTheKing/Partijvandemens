@@ -1,0 +1,49 @@
+.menu {
+display:flex;
+list-style:none;
+}
+
+.menu li {
+margin:10px;
+}
+
+.menu a:hover:not(.active) {
+background-color:#21468b;
+color:#fff;
+padding:20px 34px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:20px;
+cursor:pointer;
+}
+
+.menu a {
+background-color:#ae1c28;
+border:2px groove black;
+color:#000;
+padding:20px 34px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:20px;
+margin:4px 2px;
+cursor:pointer;
+border-radius: 50px 50px 50px 50px;
+}
+
+.menu  {
+  background-image:url(https://kids.kiddle.co/images/thumb/2/20/Flag_of_the_Netherlands.svg/190px-Flag_of_the_Netherlands.svg.png);
+  background-position: center;
+  background-size: 200px 100px;
+}
+body {
+  background-image: url('mensachtergrond.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+}
+#logos {
+ float: right;  
+ }
